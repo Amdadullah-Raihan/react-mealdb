@@ -1,0 +1,15 @@
+img{
+    width: 70px;
+}
+.ordered-items{
+    display: flex;
+    align-items: center;
+    border: 1px solid salmon;
+    margin: 3px;
+    background-color: goldenrod;
+    color: white;
+}
+p{
+    margin-left: 20px;
+    font-size: 1.1em;
+}
