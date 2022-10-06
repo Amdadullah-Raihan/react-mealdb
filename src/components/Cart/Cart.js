@@ -3,11 +3,15 @@ import Items from '../Items/Items';
 
 const Cart = (props) => {
     // console.log(props);
+    let totalQuantity = 0;
+    for(const item of props.orders){
+        totalQuantity = totalQuantity + (item.quantity);
+    }
     return (
         <div>
             <div>
                 <h1>Order List</h1>
-                <h3>Total Ordered Items: {props.orders.length}</h3>
+                <h3>Total Ordered Items: {totalQuantity}</h3>
             </div>
             <div>
                {

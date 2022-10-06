@@ -3,13 +3,17 @@ import './Items.css'
 
 const Items = ({item}) => {
 
-    console.log(item);
+ 
     
 
     return (
         <div className='ordered-items'>
-            <img src={item.strMealThumb} alt="" />
+            <img className='item-img' src={item.strMealThumb} alt="" />
             <p>{item.strMeal}</p>
+            <div className='quantity'>
+
+            <h4>+</h4> <h3> {item.quantity} </h3> <h4> - </h4>
+            </div>
         </div>
     );
 };

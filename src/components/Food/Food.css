@@ -1,5 +1,5 @@
 .food-card{
-    border: 1px solid slateblue;
+    border: 1px solid goldenrod;
    
 
 }
@@ -14,4 +14,5 @@ button{
     /* font-weight: bold; */
     color: white;
     margin-bottom: 10px;
+    cursor: pointer;
 }

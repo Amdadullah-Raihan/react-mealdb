@@ -10,7 +10,7 @@ const Food = (props) => {
             <img className='thumb' src={strMealThumb} alt="" />
             <h3>{strMeal}</h3>
             <h1>{strCatagory}</h1>
-            <button onClick={()=> handleAddToCart(props.food) }>Add This to List</button>
+            <button onClick={()=> handleAddToCart(props.food) }>Add This Fish</button>
         </div>
     );
 };
